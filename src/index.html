@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" rel="stylesheet" />
+    <title>Instagram Tailwind CSS</title>
+  </head>
+  <body>
+    <div class="sticky top-0 border-b shadow-sm bg-white z-30">
+      <!--Header-->
+      <div
+        class="flex justify-between h-24 items-center mx-4 xl:max-w-6xl xl:mx-auto"
+      >
+        <!--Left-->
+        <div class="cursor-pointer w-24 lg:inline-grid">
+          <img
+            src="https://logos-world.net/wp-content/uploads/2020/04/Instagram-Logo.png"
+            alt="instagram-logo"
+          />
+        </div>
+        <div class="cursor-pointer w-10 lg:hidden">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png"
+            alt="instagram-logo"
+          />
+        </div>
+        <!--Middle-->
+        <div class="relative">
+          <div class="absolute top-2 left-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-5 h-5 text-gray-500"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              />
+            </svg>
+          </div>
+          <input
+            placeholder="Search"
+            class="pl-10 rounded-md focus:ring-black focus:border-black bg-gray-50 border-gray-500 text-sm"
+            type="text"
+          />
+        </div>
+        <!--Right-->
+        <div class="flex space-x-4 items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="w-6 h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out hidden md:inline-flex"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+            />
+          </svg>
+          <img
+            class="h-10 rounded-full cursor-pointer"
+            src="https://media.licdn.com/dms/image/D5603AQEwkXbiQQXh8w/profile-displayphoto-shrink_200_200/0/1691528773097?e=1710374400&v=beta&t=SWqp4f4rxePzkqpaW4dtlGMFMK9Wz5SC883ZJ-SrD4I"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!--Feed-->
+    <main>
+      <section>
+        <!--Left-->
+        <!--Stories-->
+        <div class="">
+          <div class="cursor-pointer">
+            <img
+              class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out"
+              src="https://media.licdn.com/dms/image/D5603AQEwkXbiQQXh8w/profile-displayphoto-shrink_200_200/0/1691528773097?e=1710374400&v=beta&t=SWqp4f4rxePzkqpaW4dtlGMFMK9Wz5SC883ZJ-SrD4I"
+              alt=""
+            />
+            <p class="text-xs w-14 truncate text-center">renetts</p>
+          </div>
+          <div class="cursor-pointer">
+            <img
+              class="h-14 w-14 rounded-full p-[1.5px] border-2 border-red-500 hover:scale-110 transition-transform duration-200 ease-in-out"
+              src="https://i.pravatar.cc/150?img=3"
+              alt=""
+            />
+            <p class="text-xs w-14 truncate text-center">renetts</p>
+          </div>
+        </div>
+        <!--Post-->
+      </section>
+    </main>
+    <!--Footer-->
+  </body>
+</html>
